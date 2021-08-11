@@ -147,7 +147,7 @@
                       iduHXF
                     "
                     loading="lazy"
-                    style="width: 612px; opacity: 1; visibility: visible; position: relative"
+                    style="opacity: 1; visibility: visible; position: relative"
                   />
                   <div class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE" style="display: none">
                     <div
@@ -218,7 +218,7 @@
                         <button
                           type="button"
                           data-marker="root/appPage/token/sidebar/header/actions/trigger"
-                          class="sc-pNWdM sc-jrsJWt sc-fKgJPI sc-iwajpm XJxhY cyTDyE jDJikH yIthn"
+                          class=" sc-pNWdM sc-jrsJWt sc-fKgJPI sc-iwajpm XJxhY cyTDyE jDJikH yIthn"
                         >
                           <svg
                             viewBox="0 0 14 4"
@@ -266,9 +266,10 @@
               </div>
             </div>
             <div class="sc-bdnxRM sc-gtsrHT jvCTkj lonEzw">
-              <span class="sc-dlnjwi sc-hKFxyN sc-eqLmJG dJXsSm fbQESC fvWiKM"
-                >The Drops Original Series Buyers will get access to the
-                <a
+              <span class="sc-dlnjwi sc-hKFxyN sc-eqLmJG dJXsSm fbQESC fvWiKM">
+                <p>The Drops Original Series </p>
+                
+                <p>Buyers will get access to the<a
                   href="http://drops.family"
                   target="_blank"
                   class="
@@ -280,9 +281,9 @@
                     sc-yEDbz
                     bYtTOq
                   "
-                  >drops.family</a
-                >
-                channel on discord. Includes: 1x Portratit shot. 1x Side view (Unlockable).
+                  > drops.family </a>channel on discord. </p>
+                  
+                  <p>Includes: <br>1x Portratit shot. <br>1x Side view (Unlockable). </p>
                 <span class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"> </span
               ></span>
             </div>
