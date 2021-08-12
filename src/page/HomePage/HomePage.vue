@@ -23,6 +23,43 @@
         </svg>
       </div>
 
+      <div class="sc-bdnxRM sc-gtsrHT sc-gIvpjk jvCTkj gdXnHw dVRMhB">
+        <div class="sc-bdnxRM sc-hTRkXV jvCTkj enlJuL" aria-expanded="false">
+          <form class="sc-bdnxRM sc-gtsrHT sc-eJocfa jvCTkj fDJtLj jDfoFC">
+            <div class="sc-bdnxRM sc-gtsrHT jvCTkj dnhhwc">
+              <span class="sc-dlnjwi sc-hKFxyN dJXsSm fXWnrD"
+                ><div class="sc-bdnxRM sc-gtsrHT jvCTkj kqoqsC">
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    width="14"
+                    height="14"
+                    xlmns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7C12 9.76142 9.76142 12 7 12C4.23858 12 2 9.76142 2 7ZM7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C8.57591 14 10.0302 13.4792 11.2001 12.6004C11.2281 12.6376 11.259 12.6733 11.2929 12.7071L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L12.7071 11.2929C12.6733 11.259 12.6376 11.2281 12.6004 11.2001C13.4792 10.0302 14 8.57591 14 7C14 3.13401 10.866 0 7 0Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg></div
+              ></span>
+            </div>
+            <div id="search-input" class="sc-bdnxRM sc-gtsrHT jvCTkj gworOZ">
+              <input
+                inputmode="search"
+                placeholder="Search Rarible"
+                type="text"
+                class="sc-dIsUp sc-iNiQyp jEEywD gFNGJh"
+                value=""
+                style="width: 100%; font-size: 15px"
+              />
+            </div>
+            <input type="submit" hidden="" class="sc-dIsUp jEEywD" value="Search" />
+          </form>
+        </div>
+      </div>
+
       <div class="headerMenu">
         <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">Explore</a>
         <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">My Items</a>
@@ -31,6 +68,11 @@
       </div>
 
       <div class="menuSeperator"></div>
+
+      <div class="headerMenu">
+        <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">How it works</a>
+        <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">Community</a>
+         </div>
 
       <div class="menuDropDown sc-bdnxRM sc-hTRkXV jvCTkj enlJuL" aria-expanded="false">
         <span class="sc-dlnjwi sc-hKFxyN sc-biJonm dJXsSm hALNzR jxdTsu">
@@ -88,40 +130,7 @@
     </div>
 
     <div class="body ijYuIo">
-      <!-- make body a seperate component later -->
-      <!-- <div class="displayImage">
-        <div class="leftImage" style="cursor: zoom-in">
-          <img
-            src="https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0xa4cbac73fa850e431303245ac23a688eef1b0056:15"
-            alt="#14 - Neon Drop"
-            title="#14 - Neon Drop"
-            class="
-              leftImage
-              sc-gGLxEB sc-ckTSus sc-fbIWvP sc-FRrlG
-              dGJRan
-              gStCxK
-              jREztg
-              cIjgB
-              sc-dvXYtj
-              iduHXF
-            "
-            loading="lazy"
-            style="width: 614px; opacity: 1; visibility: visible; position: relative"
-          />
-          <div class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE" style="display: none">
-            <div class="sc-bdnxRM sc-hOPeYd jvCTkj eXirsP" style="width: 403px; height: 439px">
-              <div
-                class="sc-bdnxRM sc-gtsrHT sc-eKYRIR jvCTkj kjrcYC lcKYlP"
-                style="width: 403px; height: 403px"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="description"></div> -->
-
-      <div class="sc-bdnxRM sc-gtsrHT sc-bZesDY jvCTkj SofnU bCyfTj">
+      <div class="leftImageDiv sc-bdnxRM sc-gtsrHT sc-bZesDY jvCTkj SofnU bCyfTj">
         <div class="sc-bdnxRM sc-gtsrHT sc-dkuGKe sc-cKhgmI jvCTkj gdXnHw fklXsV fRPFrj">
           <div class="sc-bdnxRM sc-gtsrHT sc-hgRTRj jvCTkj gdXnHw LNHIN">
             <div
@@ -203,6 +212,7 @@
                           height="15"
                           xlmns="http://www.w3.org/2000/svg"
                           class="sc-bRubDb lmSvld"
+                          style="margin-right: 8px"
                         >
                           <path
                             d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z"
@@ -218,7 +228,7 @@
                         <button
                           type="button"
                           data-marker="root/appPage/token/sidebar/header/actions/trigger"
-                          class=" sc-pNWdM sc-jrsJWt sc-fKgJPI sc-iwajpm XJxhY cyTDyE jDJikH yIthn"
+                          class="sc-pNWdM sc-jrsJWt sc-fKgJPI sc-iwajpm XJxhY cyTDyE jDJikH yIthn"
                         >
                           <svg
                             viewBox="0 0 14 4"
@@ -267,23 +277,27 @@
             </div>
             <div class="sc-bdnxRM sc-gtsrHT jvCTkj lonEzw">
               <span class="sc-dlnjwi sc-hKFxyN sc-eqLmJG dJXsSm fbQESC fvWiKM">
-                <p>The Drops Original Series </p>
-                
-                <p>Buyers will get access to the<a
-                  href="http://drops.family"
-                  target="_blank"
-                  class="
-                    sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
-                    dJXsSm
-                    fbQESC
-                    ptkOb
-                    clIRY
-                    sc-yEDbz
-                    bYtTOq
-                  "
-                  > drops.family </a>channel on discord. </p>
-                  
-                  <p>Includes: <br>1x Portratit shot. <br>1x Side view (Unlockable). </p>
+                <p>The Drops Original Series</p>
+
+                <p>
+                  Buyers will get access to the<a
+                    href="http://drops.family"
+                    target="_blank"
+                    class="
+                      sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
+                      dJXsSm
+                      fbQESC
+                      ptkOb
+                      clIRY
+                      sc-yEDbz
+                      bYtTOq
+                    "
+                  >
+                    drops.family </a
+                  >channel on discord.
+                </p>
+
+                <p>Includes: <br />1x Portratit shot. <br />1x Side view (Unlockable).</p>
                 <span class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"> </span
               ></span>
             </div>
@@ -505,11 +519,9 @@
                         width: 100%;
                         height: auto;
                         min-height: 48px;
-                        
                       "
                     >
-
-                    <!-- max-height: 200px; -->
+                      <!-- max-height: 200px; -->
                       <div
                         style="
                           position: relative;
@@ -520,7 +532,7 @@
                           display: flex;
                         "
                       >
-                                                <!-- max-height: 215px; -->
+                        <!-- max-height: 215px; -->
 
                         <div
                           role="tablist"
