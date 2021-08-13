@@ -23,12 +23,12 @@
         </svg>
       </div>
 
-      <div class="sc-bdnxRM sc-gtsrHT sc-gIvpjk jvCTkj gdXnHw dVRMhB">
-        <div class="sc-bdnxRM sc-hTRkXV jvCTkj enlJuL" aria-expanded="false">
-          <form class="sc-bdnxRM sc-gtsrHT sc-eJocfa jvCTkj fDJtLj jDfoFC">
-            <div class="sc-bdnxRM sc-gtsrHT jvCTkj dnhhwc">
-              <span class="sc-dlnjwi sc-hKFxyN dJXsSm fXWnrD"
-                ><div class="sc-bdnxRM sc-gtsrHT jvCTkj kqoqsC">
+      <div class="dVRMhB">
+        <div aria-expanded="false">
+          <form class="fDJtLj jDfoFC">
+            <div class="dnhhwc">
+              <span class="  dJXsSm fXWnrD"
+                ><div class="   kqoqsC">
                   <svg
                     viewBox="0 0 16 16"
                     fill="none"
@@ -45,17 +45,17 @@
                   </svg></div
               ></span>
             </div>
-            <div id="search-input" class="sc-bdnxRM sc-gtsrHT jvCTkj gworOZ">
+            <div id="search-input" class="   gworOZ">
               <input
                 inputmode="search"
                 placeholder="Search Rarible"
                 type="text"
-                class="sc-dIsUp sc-iNiQyp jEEywD gFNGJh"
+                class="jEEywD gFNGJh"
                 value=""
                 style="width: 100%; font-size: 15px"
               />
             </div>
-            <input type="submit" hidden="" class="sc-dIsUp jEEywD" value="Search" />
+            <input type="submit" hidden="" class="jEEywD" value="Search" />
           </form>
         </div>
       </div>
@@ -74,9 +74,9 @@
         <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">Community</a>
          </div>
 
-      <div class="menuDropDown sc-bdnxRM sc-hTRkXV jvCTkj enlJuL" aria-expanded="false">
-        <span class="sc-dlnjwi sc-hKFxyN sc-biJonm dJXsSm hALNzR jxdTsu">
-          <button type="button" class="btn sc-pNWdM sc-jrsJWt sc-eHEENL XJxhY jkMuXo htxsRE">
+      <div class="menuDropDown" aria-expanded="false">
+        <span class="dJXsSm hALNzR jxdTsu">
+          <button type="button" class="btn  jkMuXo htxsRE">
             <svg
               viewBox="0 0 14 4"
               fill="none"
@@ -96,7 +96,7 @@
       <!-- </div> -->
 
       <div class="headerRight">
-        <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
+        <div class="   fDJtLj">
           <div class="buttonWrap">
             <button
               class="generalBtn createBtn"
@@ -108,38 +108,22 @@
 
             <button class="generalBtn connectWalletBtn" type="button">Connect wallet</button>
 
-            <button type="button" class="generalBtn searchBtn">
-              <svg
-                viewBox="0 0 16 16"
-                fill="none"
-                width="12"
-                height="12"
-                xlmns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7C12 9.76142 9.76142 12 7 12C4.23858 12 2 9.76142 2 7ZM7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C8.57591 14 10.0302 13.4792 11.2001 12.6004C11.2281 12.6376 11.259 12.6733 11.2929 12.7071L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L12.7071 11.2929C12.6733 11.259 12.6376 11.2281 12.6004 11.2001C13.4792 10.0302 14 8.57591 14 7C14 3.13401 10.866 0 7 0Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="body ijYuIo">
-      <div class="leftImageDiv sc-bdnxRM sc-gtsrHT sc-bZesDY jvCTkj SofnU bCyfTj">
-        <div class="sc-bdnxRM sc-gtsrHT sc-dkuGKe sc-cKhgmI jvCTkj gdXnHw fklXsV fRPFrj">
-          <div class="sc-bdnxRM sc-gtsrHT sc-hgRTRj jvCTkj gdXnHw LNHIN">
+      <div class="leftImageDiv SofnU bCyfTj">
+        <div class=" fklXsV fRPFrj">
+          <div class=" LNHIN">
             <div
               data-marker="root/appPage/token/image"
-              class="sc-bdnxRM sc-gtsrHT sc-fXgAZx jvCTkj ha-dmQP erAkNO"
+              class="ha-dmQP erAkNO"
             >
-              <div class="sc-bdnxRM sc-clGGWX jvCTkj kvptmo">
+              <div class="kvptmo">
                 <div
-                  class="sc-bdnxRM sc-oeezt sc-hndLF jvCTkj cPyZzU iWOYzY"
+                  class="cPyZzU iWOYzY"
                   style="cursor: zoom-in"
                 >
                   <img
@@ -147,24 +131,22 @@
                     alt="#14 - Neon Drop"
                     title="#14 - Neon Drop"
                     class="
-                      sc-gGLxEB sc-ckTSus sc-fbIWvP sc-FRrlG
                       dGJRan
                       gStCxK
                       jREztg
                       cIjgB
-                      sc-dvXYtj
                       iduHXF
                     "
                     loading="lazy"
                     style="opacity: 1; visibility: visible; position: relative"
                   />
-                  <div class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE" style="display: none">
+                  <div class="UjHkE" style="display: none">
                     <div
-                      class="sc-bdnxRM sc-hOPeYd jvCTkj eXirsP"
+                      class="eXirsP"
                       style="width: 612px; height: 744px"
                     >
                       <div
-                        class="sc-bdnxRM sc-gtsrHT sc-eKYRIR jvCTkj jSaqLG lcKYlP"
+                        class="jSaqLG lcKYlP"
                         style="width: 612px; height: 612px"
                       ></div>
                     </div>
@@ -176,42 +158,39 @@
         </div>
       </div>
 
-      <div class="description sc-bdnxRM sc-gtsrHT jvCTkj fIXVxK">
-        <div class="sc-bdnxRM sc-gtsrHT jvCTkj cqyYQe">
-          <div class="sc-bdnxRM sc-gtsrHT jvCTkj gdXnHw">
-            <div class="sc-bdnxRM sc-gtsrHT jvCTkj fcJOkd">
+      <div class="description descriptionFloatRight">
+        <div class="descriptionMarginTop">
+          <div>
+            <div class="descriptionHeader">
               <div
                 data-marker="root/appPage/token/sidebar/header"
-                class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj"
+                class="   fDJtLj"
               >
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj PHhKC">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj jgXjXG">
-                    <h1 class="sc-dlnjwi sc-hKFxyN sc-jHUuBy dJXsSm gEHjVu kQiVoP">
+                <div class="   PHhKC">
+                  <div class="   jgXjXG">
+                    <h1 class="dJXsSm gEHjVu kQiVoP">
                       #14 - Neon Drop
                     </h1>
                   </div>
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj hSELKp">
+                  <div class="   hSELKp">
                     <button
                       class="
-                        sc-pNWdM sc-jrsJWt sc-kEqXSa
-                        XJxhY
+                        
                         cyTDyE
                         cIaeyZ
-                        sc-crzoAE
                         gtFsLw
-                        sc-jFcyzc
                         fdJCKr
                       "
                       type="button"
                     >
-                      <div class="sc-bdnxRM sc-bOCfAF jvCTkj bWbxPx">
+                      <div class="bWbxPx">
                         <svg
                           viewBox="0 0 17 16"
                           fill="none"
                           width="15"
                           height="15"
                           xlmns="http://www.w3.org/2000/svg"
-                          class="sc-bRubDb lmSvld"
+                          class="lmSvld"
                           style="margin-right: 8px"
                         >
                           <path
@@ -221,14 +200,14 @@
                           ></path>
                         </svg>
                       </div>
-                      <span data-value="60" class="sc-dlnjwi sc-hKFxyN dJXsSm gEHjVu">60</span>
+                      <span data-value="60" class="  dJXsSm gEHjVu">60</span>
                     </button>
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj drtNyu">
-                      <div class="sc-bdnxRM sc-hTRkXV jvCTkj enlJuL" aria-expanded="false">
+                    <div class="   drtNyu">
+                      <div class="   " aria-expanded="false">
                         <button
                           type="button"
                           data-marker="root/appPage/token/sidebar/header/actions/trigger"
-                          class="sc-pNWdM sc-jrsJWt sc-fKgJPI sc-iwajpm XJxhY cyTDyE jDJikH yIthn"
+                          class=" cyTDyE jDJikH yIthn"
                         >
                           <svg
                             viewBox="0 0 14 4"
@@ -249,16 +228,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                  <span class="sc-dlnjwi sc-hKFxyN sc-zHacW dJXsSm fZhgKn hFBxwb"
+                <div class="   hmMFuy">
+                  <span class="dJXsSm fZhgKn hFBxwb"
                     >On sale for
-                    <span class="sc-dlnjwi sc-hKFxyN sc-daBunf dJXsSm yJIFJ eQUdeu"
+                    <span class="dJXsSm yJIFJ eQUdeu"
                       ><span
                         title="1.09 ETH"
                         data-currency-symbol="ETH"
                         data-currency-address="0x0000000000000000000000000000000000000000"
                         data-price="1.09"
-                        class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"
+                        class="  dJXsSm fbQESC"
                         >1.09 ETH</span
                       ></span
                     ></span
@@ -266,73 +245,66 @@
                 </div>
               </div>
             </div>
-            <div class="sc-bdnxRM sc-gtsrHT jvCTkj lonEzw">
-              <div class="sc-bdnxRM sc-enTqHk jvCTkj gVANIR">
-                <button type="button" class="sc-pNWdM sc-jrsJWt sc-ciSkZP XJxhY cyTDyE kPCRWr">
-                  <span class="sc-dlnjwi sc-hKFxyN sc-dsXzNU dJXsSm exA-dlz bTkamK"
+            <div class="   lonEzw">
+              <div class=" gVANIR">
+                <button type="button" class="  cyTDyE kPCRWr">
+                  <span class="dJXsSm exA-dlz bTkamK"
                     >Unlockable</span
                   >
                 </button>
               </div>
             </div>
-            <div class="sc-bdnxRM sc-gtsrHT jvCTkj lonEzw">
-              <span class="sc-dlnjwi sc-hKFxyN sc-eqLmJG dJXsSm fbQESC fvWiKM">
+            <div class="   lonEzw">
+              <span class="dJXsSm fbQESC fvWiKM">
                 <p>The Drops Original Series</p>
 
-                <p>
-                  Buyers will get access to the<a
+                <p>Buyers will get access to the<a
                     href="http://drops.family"
                     target="_blank"
                     class="
-                      sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                       dJXsSm
                       fbQESC
                       ptkOb
                       clIRY
-                      sc-yEDbz
                       bYtTOq
                     "
-                  >
-                    drops.family </a
+                  > drops.family </a
                   >channel on discord.
                 </p>
 
                 <p>Includes: <br />1x Portratit shot. <br />1x Side view (Unlockable).</p>
-                <span class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"> </span
+                <span class="  dJXsSm fbQESC"> </span
               ></span>
             </div>
-            <div class="sc-bdnxRM sc-gtsrHT jvCTkj jhaHaJ">
-              <div id="item-credits" class="sc-bdnxRM sc-gtsrHT jvCTkj jsKwbJ">
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj cJQiTp">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                    <span class="sc-dlnjwi sc-hKFxyN dJXsSm bHLYLH">Creator</span>
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                      <div class="sc-bdnxRM sc-gtsrHT jvCTkj gcLMcm">
+            <div class="   jhaHaJ">
+              <div id="item-credits" class="   jsKwbJ">
+                <div class="   cJQiTp">
+                  <div class="   fDJtLj">
+                    <span class="  dJXsSm bHLYLH">Creator</span>
+                    <div class="   hmMFuy">
+                      <div class="   gcLMcm">
                         <div
                           data-address="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
                           data-marker="root/appPage/token/sidebar/main/creator"
-                          class="sc-bdnxRM sc-gtsrHT jvCTkj ddDgOL"
+                          class="   ddDgOL"
                         >
-                          <div class="sc-bdnxRM sc-kHWWYL jvCTkj iGDlQI">
+                          <div class="iGDlQI">
                             <a
                               href="/nebenzu?tab=onsale"
                               data-marker="root/appPage/token/sidebar/main/creator/avatarLink"
                               class="
-                                sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                 dJXsSm
                                 fbQESC
                                 ptkOb
                                 clIRY
                               "
-                              ><div class="sc-bdnxRM sc-fuISkM jvCTkj jnAJaq">
+                              ><div class="jnAJaq">
                                 <img
                                   src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-users/0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395/avatar/QmVaNj5JLgcJ3w2CyxYiuaCxbVHYn24UbVPmz4GGDHVS25"
                                   class="
-                                    sc-gGLxEB sc-ckTSus sc-fbIWvP
                                     dGJRan
                                     NsoaT
                                     jREztg
-                                    sc-dvXYtj
                                     iduHXF
                                   "
                                   loading="lazy"
@@ -344,13 +316,13 @@
                                     position: relative;
                                   "
                                 />
-                                <div class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE" style="display: none">
+                                <div class="UjHkE" style="display: none">
                                   <div
-                                    class="sc-bdnxRM sc-gtsrHT sc-eKYRIR jvCTkj hqmMME dlRkEP"
+                                    class="hqmMME dlRkEP"
                                     style="width: 40px; height: 40px"
                                   ></div>
                                 </div>
-                                <div class="sc-bdnxRM sc-fcmMJX jvCTkj bRzrLL">
+                                <div class="bRzrLL">
                                   <svg
                                     width="14"
                                     height="14"
@@ -372,13 +344,12 @@
                                 </div></div
                             ></a>
                           </div>
-                          <div class="sc-bdnxRM sc-gtsrHT sc-bTDOke jvCTkj bMdBsL dXiuJH">
-                            <span class="sc-dlnjwi sc-hKFxyN dJXsSm jOUuLS"
+                          <div class="bMdBsL dXiuJH">
+                            <span class="  dJXsSm jOUuLS"
                               ><a
                                 href="/nebenzu?tab=onsale"
                                 data-marker="root/appPage/token/sidebar/main/creator/nameLink"
                                 class="
-                                  sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                   dJXsSm
                                   fbQESC
                                   ptkOb
@@ -387,7 +358,7 @@
                                 ><span
                                   data-address="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
                                   title="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
-                                  class="sc-dlnjwi sc-hKFxyN dJXsSm yJIFJ"
+                                  class="  dJXsSm yJIFJ"
                                   >Nebenzu</span
                                 ></a
                               ></span
@@ -398,36 +369,33 @@
                     </div>
                   </div>
                 </div>
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj cJQiTp">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                    <span class="sc-dlnjwi sc-hKFxyN dJXsSm bHLYLH">Collection</span>
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                      <div class="sc-bdnxRM sc-gtsrHT jvCTkj gcLMcm">
+                <div class="   cJQiTp">
+                  <div class="   fDJtLj">
+                    <span class="  dJXsSm bHLYLH">Collection</span>
+                    <div class="   hmMFuy">
+                      <div class="   gcLMcm">
                         <div
                           data-address="0xa4cbac73fa850e431303245ac23a688eef1b0056"
                           data-marker="root/appPage/token/sidebar/main/collection"
-                          class="sc-bdnxRM sc-gtsrHT jvCTkj ddDgOL"
+                          class="   ddDgOL"
                         >
-                          <div class="sc-bdnxRM sc-kHWWYL jvCTkj iGDlQI">
+                          <div class="iGDlQI">
                             <a
                               href="/drops?tab=onsale"
                               data-marker="root/appPage/token/sidebar/main/collection/avatarLink"
                               class="
-                                sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                 dJXsSm
                                 fbQESC
                                 ptkOb
                                 clIRY
                               "
-                              ><div class="sc-bdnxRM sc-fuISkM jvCTkj jnAJaq">
+                              ><div class="jnAJaq">
                                 <img
                                   src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-collections/0xa4cbac73fa850e431303245ac23a688eef1b0056/avatar/QmVaNj5JLgcJ3w2CyxYiuaCxbVHYn24UbVPmz4GGDHVS25"
                                   class="
-                                    sc-gGLxEB sc-ckTSus sc-fbIWvP
                                     dGJRan
                                     NsoaT
                                     jREztg
-                                    sc-dvXYtj
                                     iduHXF
                                   "
                                   loading="lazy"
@@ -439,13 +407,13 @@
                                     position: relative;
                                   "
                                 />
-                                <div class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE" style="display: none">
+                                <div class="UjHkE" style="display: none">
                                   <div
-                                    class="sc-bdnxRM sc-gtsrHT sc-eKYRIR jvCTkj hqmMME dlRkEP"
+                                    class="hqmMME dlRkEP"
                                     style="width: 40px; height: 40px"
                                   ></div>
                                 </div>
-                                <div class="sc-bdnxRM sc-fcmMJX jvCTkj bRzrLL">
+                                <div class="bRzrLL">
                                   <svg
                                     width="14"
                                     height="14"
@@ -467,13 +435,12 @@
                                 </div></div
                             ></a>
                           </div>
-                          <div class="sc-bdnxRM sc-gtsrHT sc-bTDOke jvCTkj bMdBsL dXiuJH">
-                            <span class="sc-dlnjwi sc-hKFxyN dJXsSm jOUuLS"
+                          <div class="bMdBsL dXiuJH">
+                            <span class="  dJXsSm jOUuLS"
                               ><a
                                 href="/drops?tab=onsale"
                                 data-marker="root/appPage/token/sidebar/main/collection/nameLink"
                                 class="
-                                  sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                   dJXsSm
                                   fbQESC
                                   ptkOb
@@ -482,7 +449,7 @@
                                 ><span
                                   data-address="0xa4cbac73fa850e431303245ac23a688eef1b0056"
                                   title="0xa4cbac73fa850e431303245ac23a688eef1b0056"
-                                  class="sc-dlnjwi sc-hKFxyN dJXsSm yJIFJ"
+                                  class="  dJXsSm yJIFJ"
                                   >The Drops</span
                                 ></a
                               ></span
@@ -496,12 +463,12 @@
               </div>
               <div
                 data-marker="root/appPage/token/sidebar/main/royalties"
-                class="sc-bdnxRM sc-gtsrHT jvCTkj eccOyI"
+                class="   eccOyI"
               >
-                <div class="sc-bdnxRM sc-gtsrHT sc-cCwPlL jvCTkj fDJtLj jbBjbv">
-                  <span class="sc-dlnjwi sc-hKFxyN sc-kqfmhM dJXsSm eKtFCI dJNUVb"
-                    ><span class="sc-dlnjwi sc-hKFxyN dJXsSm yJIFJ"
-                      ><span data-value="1000" class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"
+                <div class="fDJtLj jbBjbv">
+                  <span class="dJXsSm eKtFCI dJNUVb"
+                    ><span class="  dJXsSm yJIFJ"
+                      ><span data-value="1000" class="  dJXsSm fbQESC"
                         >10%</span
                       ></span
                     >
@@ -509,9 +476,9 @@
                   >
                 </div>
               </div>
-              <div class="sc-bdnxRM sc-gtsrHT sc-czETjp jvCTkj iaKKki hnTkDI">
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj fUTYcx">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj aZAhn" style="display: flex">
+              <div class=" iaKKki hnTkDI">
+                <div class="   fUTYcx">
+                  <div class="   aZAhn" style="display: flex">
                     <div
                       style="
                         position: relative;
@@ -536,50 +503,50 @@
 
                         <div
                           role="tablist"
-                          class="sc-bdnxRM sc-gtsrHT sc-fVnRWS jvCTkj fDJtLj ipwLBG"
+                          class="fDJtLj ipwLBG"
                         >
                           <button
                             role="tab"
                             aria-selected="true"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/details/trigger"
-                            class="sc-pNWdM sc-jrsJWt sc-juNJA-d XJxhY cyTDyE flcLKg"
+                            class="    cyTDyE flcLKg"
                           >
-                            <span class="sc-dlnjwi sc-hKFxyN sc-gGqFFC dJXsSm cBHPdj eOTYGC"
+                            <span class="   dJXsSm cBHPdj eOTYGC"
                               >Details</span
                             >
                             <div
-                              class="sc-bdnxRM sc-gtsrHT sc-gDyJDg jvCTkj fDJtLj ccDJtE"
+                              class="    fDJtLj ccDJtE"
                             ></div></button
                           ><button
                             role="tab"
                             aria-selected="false"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/bids/trigger"
-                            class="sc-pNWdM sc-jrsJWt sc-juNJA-d XJxhY cyTDyE ehoVfs"
+                            class="    cyTDyE ehoVfs"
                           >
-                            <span class="sc-dlnjwi sc-hKFxyN sc-gGqFFC dJXsSm cBHPdj eOTYGC"
+                            <span class="   dJXsSm cBHPdj eOTYGC"
                               >Bids</span
                             >
                             <div
-                              class="sc-bdnxRM sc-gtsrHT sc-gDyJDg jvCTkj fDJtLj epUnBg"
+                              class="    fDJtLj epUnBg"
                             ></div></button
                           ><button
                             role="tab"
                             aria-selected="false"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/history/trigger"
-                            class="sc-pNWdM sc-jrsJWt sc-juNJA-d XJxhY cyTDyE ehoVfs"
+                            class="    cyTDyE ehoVfs"
                           >
-                            <span class="sc-dlnjwi sc-hKFxyN sc-gGqFFC dJXsSm cBHPdj eOTYGC"
+                            <span class="   dJXsSm cBHPdj eOTYGC"
                               >History</span
                             >
-                            <div class="sc-bdnxRM sc-gtsrHT sc-gDyJDg jvCTkj fDJtLj epUnBg"></div>
+                            <div class="    fDJtLj epUnBg"></div>
                           </button>
                         </div>
                       </div>
                       <div
-                        class="sc-laZMeE ljWfRO"
+                        class=" ljWfRO"
                         style="
                           position: absolute;
                           height: 6px;
@@ -589,12 +556,12 @@
                         "
                       >
                         <div
-                          class="sc-bdnxRM sc-gSYDnn jvCTkj gUaHnb"
+                          class="   gUaHnb"
                           style="position: relative; display: block; height: 100%; width: 0px"
                         ></div>
                       </div>
                       <div
-                        class="sc-laZMeE ljWfRO"
+                        class=" ljWfRO"
                         style="
                           position: absolute;
                           width: 6px;
@@ -604,49 +571,46 @@
                         "
                       >
                         <div
-                          class="sc-bdnxRM sc-gSYDnn jvCTkj gUaHnb"
+                          class="   gUaHnb"
                           style="position: relative; display: block; width: 100%; height: 0px"
                         ></div>
                       </div>
                     </div>
-                    <div class="sc-bShgHC bPNwGg" style="z-index: -1; opacity: 0"></div>
-                    <div class="sc-hkoqWr fLUzWa" style="opacity: 0; z-index: -1"></div>
+                    <div class=" bPNwGg" style="z-index: -1; opacity: 0"></div>
+                    <div class=" fLUzWa" style="opacity: 0; z-index: -1"></div>
                   </div>
                 </div>
               </div>
-              <div class="sc-bdnxRM sc-gtsrHT jvCTkj jQzmww">
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj gdXnHw">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj dVaqxJ">
-                      <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                        <span class="sc-dlnjwi sc-hKFxyN dJXsSm bHLYLH">Owner</span>
-                        <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                          <div class="sc-bdnxRM sc-gtsrHT jvCTkj gcLMcm">
+              <div class="   jQzmww">
+                <div class="   ">
+                  <div class="   fDJtLj">
+                    <div class="   dVaqxJ">
+                      <div class="   fDJtLj">
+                        <span class="  dJXsSm bHLYLH">Owner</span>
+                        <div class="   hmMFuy">
+                          <div class="   gcLMcm">
                             <div
                               data-address="0x91857afe6cd40f459aabb56491e9b5c852e66255"
                               data-marker="root/appPage/token/sidebar/main/info/details/ownerLink"
-                              class="sc-bdnxRM sc-gtsrHT jvCTkj ddDgOL"
+                              class="   ddDgOL"
                             >
-                              <div class="sc-bdnxRM sc-kHWWYL jvCTkj iGDlQI">
+                              <div class="iGDlQI">
                                 <a
                                   href="/user/0x91857afe6cd40f459aabb56491e9b5c852e66255?tab=onsale"
                                   data-marker="root/appPage/token/sidebar/main/info/details/ownerLink/avatarLink"
                                   class="
-                                    sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                     dJXsSm
                                     fbQESC
                                     ptkOb
                                     clIRY
                                   "
-                                  ><div class="sc-bdnxRM sc-fuISkM jvCTkj jnAJaq">
+                                  ><div class="jnAJaq">
                                     <img
                                       src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-users/0x91857afe6cd40f459aabb56491e9b5c852e66255/avatar/QmR1p5Q7zSGN7JiVTpNTFQUxKEaFBLdjBBBJgELY4BaLRG"
                                       class="
-                                        sc-gGLxEB sc-ckTSus sc-fbIWvP
                                         dGJRan
                                         NsoaT
                                         jREztg
-                                        sc-dvXYtj
                                         iduHXF
                                       "
                                       loading="lazy"
@@ -659,15 +623,15 @@
                                       "
                                     />
                                     <div
-                                      class="sc-bdnxRM sc-fXazdy jvCTkj UjHkE"
+                                      class="UjHkE"
                                       style="display: none"
                                     >
                                       <div
-                                        class="sc-bdnxRM sc-gtsrHT sc-eKYRIR jvCTkj hqmMME dlRkEP"
+                                        class="hqmMME dlRkEP"
                                         style="width: 40px; height: 40px"
                                       ></div>
                                     </div>
-                                    <div class="sc-bdnxRM sc-fcmMJX jvCTkj bRzrLL">
+                                    <div class="bRzrLL">
                                       <svg
                                         width="14"
                                         height="14"
@@ -689,13 +653,12 @@
                                     </div></div
                                 ></a>
                               </div>
-                              <div class="sc-bdnxRM sc-gtsrHT sc-bTDOke jvCTkj bMdBsL dXiuJH">
-                                <span class="sc-dlnjwi sc-hKFxyN dJXsSm jOUuLS"
+                              <div class="bMdBsL dXiuJH">
+                                <span class="  dJXsSm jOUuLS"
                                   ><a
                                     href="/user/0x91857afe6cd40f459aabb56491e9b5c852e66255?tab=onsale"
                                     data-marker="root/appPage/token/sidebar/main/info/details/ownerLink/nameLink"
                                     class="
-                                      sc-dlnjwi sc-hKFxyN sc-dIvrsQ sc-hHEiqL
                                       dJXsSm
                                       fbQESC
                                       ptkOb
@@ -704,7 +667,7 @@
                                     ><span
                                       data-address="0x91857afe6cd40f459aabb56491e9b5c852e66255"
                                       title="0x91857afe6cd40f459aabb56491e9b5c852e66255"
-                                      class="sc-dlnjwi sc-hKFxyN dJXsSm yJIFJ"
+                                      class="  dJXsSm yJIFJ"
                                       >DNZCNGZ</span
                                     ></a
                                   ></span
@@ -715,20 +678,20 @@
                         </div>
                       </div>
                     </div>
-                    <div class="sc-bdnxRM sc-gtsrHT sc-kMGnOH jvCTkj fDJtLj gIgWXs">
-                      <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                        <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                          <span class="sc-dlnjwi sc-hKFxyN dJXsSm bHLYLH">Size</span>
-                          <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                            <span class="sc-dlnjwi sc-hKFxyN dJXsSm cCpYEe">4000x4000px</span>
+                    <div class="fDJtLj gIgWXs">
+                      <div class="   fDJtLj">
+                        <div class="   fDJtLj">
+                          <span class="  dJXsSm bHLYLH">Size</span>
+                          <div class="   hmMFuy">
+                            <span class="  dJXsSm cCpYEe">4000x4000px</span>
                           </div>
                         </div>
                       </div>
-                      <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                        <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                          <span class="sc-dlnjwi sc-hKFxyN dJXsSm bHLYLH">Background</span>
-                          <div class="sc-bdnxRM sc-gtsrHT jvCTkj hmMFuy">
-                            <span class="sc-dlnjwi sc-hKFxyN dJXsSm cCpYEe">Black</span>
+                      <div class="   fDJtLj">
+                        <div class="   fDJtLj">
+                          <span class="  dJXsSm bHLYLH">Background</span>
+                          <div class="   hmMFuy">
+                            <span class="  dJXsSm cCpYEe">Black</span>
                           </div>
                         </div>
                       </div>
@@ -739,34 +702,34 @@
             </div>
           </div>
         </div>
-        <div class="sc-bdnxRM sc-gtsrHT sc-hrlCSN jvCTkj cMRcYJ htLCcn">
-          <div class="sc-bdnxRM sc-gtsrHT jvCTkj FHEoH">
-            <div class="sc-bdnxRM sc-gtsrHT sc-gKAaRy jvCTkj fDJtLj hTrBNW">
-              <div class="sc-bdnxRM sc-gtsrHT jvCTkj hLcxsH">
-                <div class="sc-bdnxRM sc-gtsrHT jvCTkj fDJtLj">
-                  <div class="sc-bdnxRM sc-gtsrHT jvCTkj hcigyn">
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj cJQiTp">
+        <div class="    cMRcYJ htLCcn">
+          <div class="   FHEoH">
+            <div class="fDJtLj hTrBNW">
+              <div class="   hLcxsH">
+                <div class="   fDJtLj">
+                  <div class="   hcigyn">
+                    <div class="   cJQiTp">
                       <button
-                        class="sc-pNWdM sc-jrsJWt sc-kEqXSa XJxhY cyTDyE UJnfT sc-crzoAE dbjGIW"
+                        class=" cyTDyE UJnfT dbjGIW"
                         type="button"
                         data-marker="root/appPage/token/sidebar/footer/purchaseWidget/buyButton"
                       >
-                        <span class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"
+                        <span class="  dJXsSm fbQESC"
                           >Buy for
                           <span
                             title="1.09 ETH"
                             data-currency-symbol="ETH"
                             data-currency-address="0x0000000000000000000000000000000000000000"
                             data-price="1.09"
-                            class="sc-dlnjwi sc-hKFxyN dJXsSm fbQESC"
+                            class="  dJXsSm fbQESC"
                             >1.09 ETH</span
                           ></span
                         >
                       </button>
                     </div>
-                    <div class="sc-bdnxRM sc-gtsrHT jvCTkj cJQiTp">
+                    <div class="   cJQiTp">
                       <button
-                        class="sc-pNWdM sc-jrsJWt sc-kEqXSa XJxhY cyTDyE UJnfT sc-crzoAE lfjFGa"
+                        class=" cyTDyE UJnfT lfjFGa"
                         type="button"
                         data-marker="root/appPage/token/sidebar/footer/purchaseWidget/bidButton"
                       >

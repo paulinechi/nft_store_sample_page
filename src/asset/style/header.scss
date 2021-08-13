@@ -1,0 +1,144 @@
+.homePage {
+  padding: 0 45px;
+  max-height: 1000px !important;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.body {
+  display: inline-block;
+}
+
+.leftImageDiv {
+  width: 40%;
+  height: 45%;
+  max-width: 700px;
+}
+
+.description {
+  width: 100%;
+  float: right;
+}
+
+.titleStyle {
+  transition: all 0.12s ease-in-out 0s;
+  color: rgba(4, 4, 5, 0.5) !important;
+  height: 40px !important;
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20.7px;
+  font-weight: 900 !important;
+  font-family: 'Circular Std', Helvetica, Arial, sans-serif;
+  margin: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  width: 100%;
+  padding-top: 30px;
+}
+
+.headerMenu {
+  -webkit-box-align: center;
+  align-items: row;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.menuSeperator {
+  height: 24px;
+  width: 1px;
+  background: rgb(230, 230, 230);
+  margin: 0 18px;
+}
+
+.btn {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  -webkit-box-pack: center;
+  color: rgb(128, 128, 128);
+  height: 20px;
+  display: flex;
+}
+
+.headerLeft {
+  float: left;
+}
+
+.headerRight {
+  float: right;
+  flex-direction: row;
+}
+
+.headerLogo {
+  margin-right: 35px;
+}
+
+.createBtn {
+  border-color: transparent;
+  color: rgb(0, 102, 255);
+  background: rgba(0, 102, 255, 0.15);
+  margin-left: 30px;
+}
+
+.connectWalletBtn {
+  color: rgb(4, 4, 5);
+  background-color: transparent;
+  border-color: rgba(4, 4, 5, 0.1);
+  margin-left: 10px;
+}
+
+.searchBtn {
+  height: 40px;
+  width: 40px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.12s ease-in-out 0s;
+  transform-origin: center center;
+  font-size: 14px;
+  font-weight: 900;
+  flex-direction: row;
+  border-radius: 40px;
+  border-color: rgba(4, 4, 5, 0.1);
+  background-color: transparent;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.generalBtn {
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  cursor: pointer;
+  display: flex;
+  line-height: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+  flex-direction: row;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonWrap {
+  display: flex;
+}
