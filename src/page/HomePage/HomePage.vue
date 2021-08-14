@@ -1,6 +1,8 @@
 <style src="./HomePage.scss" module lang="scss"></style>
-<script src="./HomePage.js"></script>
-
+<script lang="ts">
+// import HomePage from './HomePage';
+// export default HomePage;
+</script>
 <template>
   <div class="homePage">
     <div class="header">
@@ -23,12 +25,12 @@
         </svg>
       </div>
 
-      <div class="dVRMhB">
+      <div class="headerMenuText">
         <div aria-expanded="false">
-          <form class="fDJtLj jDfoFC">
-            <div class="dnhhwc">
-              <span class="  dJXsSm fXWnrD"
-                ><div class="   kqoqsC">
+          <form class="displayFlex grayBtn">
+            <div class="btnTextAlign">
+              <span class="questionMarkStyle"
+                ><div class="questionMarkMargin">
                   <svg
                     viewBox="0 0 16 16"
                     fill="none"
@@ -45,17 +47,17 @@
                   </svg></div
               ></span>
             </div>
-            <div id="search-input" class="   gworOZ">
+            <div id="search-input" class="searchBarStyle">
               <input
                 inputmode="search"
                 placeholder="Search Rarible"
                 type="text"
-                class="jEEywD gFNGJh"
+                class="searchBarTextStyle"
                 value=""
                 style="width: 100%; font-size: 15px"
               />
             </div>
-            <input type="submit" hidden="" class="jEEywD" value="Search" />
+            <input type="submit" hidden="" value="Search" />
           </form>
         </div>
       </div>
@@ -71,12 +73,35 @@
 
       <div class="headerMenu">
         <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">How it works</a>
-        <a href="/" class="titleStyle" data-marker="main-menu/exploreLink">Community</a>
-         </div>
+        <a href="/" class="titleStyle" data-marker="main-menu/exploreLink"
+          >Community
+        </a>
+        <div class="headerDropDownBtn">
+            <svg
+              viewBox="0 0 11 7"
+              fill="none"
+              width="10"
+              height="10"
+              xlmns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.00146 6.41431L9.70857 1.7072C10.0991 1.31668 10.0991 0.683511 9.70857 0.292986C9.31805 -0.097538 8.68488 -0.097538 8.29436 0.292986L5.00146 3.58588L1.70857 0.292986C1.31805 -0.097538 0.684882 -0.097538 0.294358 0.292986C-0.0961662 0.68351 -0.0961662 1.31668 0.294358 1.7072L5.00146 6.41431Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+      </div>
 
-      <div class="menuDropDown" aria-expanded="false">
-        <span class="dJXsSm hALNzR jxdTsu">
-          <button type="button" class="btn  jkMuXo htxsRE">
+
+
+
+
+
+      <!-- <div class="menuDropDown" aria-expanded="false">
+        <span>
+          <button type="button" class="btn">
             <svg
               viewBox="0 0 14 4"
               fill="none"
@@ -92,11 +117,12 @@
               ></path>
             </svg></button
         ></span>
-      </div>
+      </div> -->
       <!-- </div> -->
 
+
       <div class="headerRight">
-        <div class="   fDJtLj">
+        <div class="displayFlex">
           <div class="buttonWrap">
             <button
               class="generalBtn createBtn"
@@ -113,42 +139,51 @@
       </div>
     </div>
 
-    <div class="body ijYuIo">
-      <div class="leftImageDiv SofnU bCyfTj">
-        <div class=" fklXsV fRPFrj">
-          <div class=" LNHIN">
-            <div
-              data-marker="root/appPage/token/image"
-              class="ha-dmQP erAkNO"
-            >
-              <div class="kvptmo">
-                <div
-                  class="cPyZzU iWOYzY"
-                  style="cursor: zoom-in"
-                >
+
+     <!-- <div>
+        <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2" style="margin-top:150px">
+          <b-dropdown-item>First Action</b-dropdown-item>
+          <b-dropdown-item>Second Action</b-dropdown-item>
+          <b-dropdown-item>Third Action</b-dropdown-item>
+          <b-dropdown-divider></b-dropdown-divider>
+          <b-dropdown-item active>Active action</b-dropdown-item>
+          <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+        </b-dropdown>
+      </div> -->
+
+
+
+    <div>
+      <b-dropdown size="lg"  variant="link" toggle-class="text-decoration-none" no-caret style="margin-top: 150px">
+        <template #button-content>
+          &#x1f50d;<span class="sr-only">Search</span>
+        </template>
+        <b-dropdown-item href="#">Action</b-dropdown-item>
+        <b-dropdown-item href="#">Another action</b-dropdown-item>
+        <b-dropdown-item href="#">Something else here...</b-dropdown-item>
+      </b-dropdown>
+    </div>
+
+
+
+    <div class="body bodySecMargin">
+      <div class="leftImageDiv imagePosition descriptionSecPosition">
+        <div>
+          <div class="imagePadding">
+            <div data-marker="root/appPage/token/image">
+              <div>
+                <div class="cPyZzU" style="cursor: zoom-in">
                   <img
                     src="https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0xa4cbac73fa850e431303245ac23a688eef1b0056:15"
                     alt="#14 - Neon Drop"
                     title="#14 - Neon Drop"
-                    class="
-                      dGJRan
-                      gStCxK
-                      jREztg
-                      cIjgB
-                      iduHXF
-                    "
+                    class="imageRoundCorner imageSize"
                     loading="lazy"
                     style="opacity: 1; visibility: visible; position: relative"
                   />
-                  <div class="UjHkE" style="display: none">
-                    <div
-                      class="eXirsP"
-                      style="width: 612px; height: 744px"
-                    >
-                      <div
-                        class="jSaqLG lcKYlP"
-                        style="width: 612px; height: 612px"
-                      ></div>
+                  <div style="display: none">
+                    <div style="width: 612px; height: 744px">
+                      <div style="width: 612px; height: 612px"></div>
                     </div>
                   </div>
                 </div>
@@ -162,25 +197,14 @@
         <div class="descriptionMarginTop">
           <div>
             <div class="descriptionHeader">
-              <div
-                data-marker="root/appPage/token/sidebar/header"
-                class="   fDJtLj"
-              >
-                <div class="   PHhKC">
-                  <div class="   jgXjXG">
-                    <h1 class="dJXsSm gEHjVu kQiVoP">
-                      #14 - Neon Drop
-                    </h1>
+              <div data-marker="root/appPage/token/sidebar/header" class="displayFlex">
+                <div class="descriptionHeaderTitle">
+                  <div class="descriptionHeaderFlex">
+                    <h1 class="descriptionDetailsTitle textBreakWord">#14 - Neon Drop</h1>
                   </div>
-                  <div class="   hSELKp">
+                  <div class="descriptionDetailsTitleLikes">
                     <button
-                      class="
-                        
-                        cyTDyE
-                        cIaeyZ
-                        gtFsLw
-                        fdJCKr
-                      "
+                      class="descriptionDetailsTextBtnStyle generalBtnStyle gtFsLw fdJCKr"
                       type="button"
                     >
                       <div class="bWbxPx">
@@ -200,14 +224,14 @@
                           ></path>
                         </svg>
                       </div>
-                      <span data-value="60" class="  dJXsSm gEHjVu">60</span>
+                      <span data-value="60" class="descriptionDetailsTitle">60</span>
                     </button>
-                    <div class="   drtNyu">
-                      <div class="   " aria-expanded="false">
+                    <div>
+                      <div aria-expanded="false">
                         <button
                           type="button"
                           data-marker="root/appPage/token/sidebar/header/actions/trigger"
-                          class=" cyTDyE jDJikH yIthn"
+                          class="descriptionDetailsTextBtnStyle dropDownMenuStyle"
                         >
                           <svg
                             viewBox="0 0 14 4"
@@ -228,16 +252,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="   hmMFuy">
-                  <span class="dJXsSm fZhgKn hFBxwb"
+                <div class="descriptionTextBoxPadding">
+                  <span class="descriptionSaleTextStyle hFBxwb"
                     >On sale for
-                    <span class="dJXsSm yJIFJ eQUdeu"
+                    <span class="linkFontColor"
                       ><span
                         title="1.09 ETH"
                         data-currency-symbol="ETH"
                         data-currency-address="0x0000000000000000000000000000000000000000"
                         data-price="1.09"
-                        class="  dJXsSm fbQESC"
+                        class="paragraphStyle linkForETHPrice"
                         >1.09 ETH</span
                       ></span
                     ></span
@@ -245,68 +269,49 @@
                 </div>
               </div>
             </div>
-            <div class="   lonEzw">
-              <div class=" gVANIR">
-                <button type="button" class="  cyTDyE kPCRWr">
-                  <span class="dJXsSm exA-dlz bTkamK"
-                    >Unlockable</span
-                  >
+            <div class="descriptionTextPadding">
+              <div class="descriptionDetailsParagraph">
+                <button type="button" class="descriptionDetailsTextBtnStyle unlockableTextBtn">
+                  <span class="unlockableTextColor unblockableTextStyle">Unlockable</span>
                 </button>
               </div>
             </div>
-            <div class="   lonEzw">
-              <span class="dJXsSm fbQESC fvWiKM">
+            <div class="descriptionTextPadding">
+              <span class="paragraphStyle paragraphTextWrap">
                 <p>The Drops Original Series</p>
 
-                <p>Buyers will get access to the<a
-                    href="http://drops.family"
-                    target="_blank"
-                    class="
-                      dJXsSm
-                      fbQESC
-                      ptkOb
-                      clIRY
-                      bYtTOq
-                    "
-                  > drops.family </a
+                <p>
+                  Buyers will get access to the
+                  <a href="http://drops.family" target="_blank" class="paragraphStyle linkColor"
+                    >drops.family </a
                   >channel on discord.
                 </p>
 
                 <p>Includes: <br />1x Portratit shot. <br />1x Side view (Unlockable).</p>
-                <span class="  dJXsSm fbQESC"> </span
+                <span class="paragraphStyle"> </span
               ></span>
             </div>
-            <div class="   jhaHaJ">
-              <div id="item-credits" class="   jsKwbJ">
-                <div class="   cJQiTp">
-                  <div class="   fDJtLj">
-                    <span class="  dJXsSm bHLYLH">Creator</span>
-                    <div class="   hmMFuy">
-                      <div class="   gcLMcm">
+            <div class="bubbleNoticeBar">
+              <div id="item-credits" class="creatorSecStyle">
+                <div class="creatorSecMargin">
+                  <div class="displayFlex">
+                    <span class="descriptionDetailsTitleStyle">Creator</span>
+                    <div class="descriptionTextBoxPadding">
+                      <div class="descriptionDetailsTitleMargin">
                         <div
                           data-address="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
                           data-marker="root/appPage/token/sidebar/main/creator"
-                          class="   ddDgOL"
+                          class="creatorNameStyle"
                         >
-                          <div class="iGDlQI">
+                          <div class="descriptionBtnImageMargin">
                             <a
                               href="/nebenzu?tab=onsale"
                               data-marker="root/appPage/token/sidebar/main/creator/avatarLink"
-                              class="
-                                dJXsSm
-                                fbQESC
-                                ptkOb
-                                clIRY
-                              "
-                              ><div class="jnAJaq">
+                              class="paragraphStyle linkStyle"
+                              ><div class="descriptionDetailsCheckMark">
                                 <img
                                   src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-users/0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395/avatar/QmVaNj5JLgcJ3w2CyxYiuaCxbVHYn24UbVPmz4GGDHVS25"
-                                  class="
-                                    dGJRan
-                                    NsoaT
-                                    jREztg
-                                    iduHXF
-                                  "
+                                  class="imageSize"
                                   loading="lazy"
                                   style="
                                     width: 40px;
@@ -316,13 +321,10 @@
                                     position: relative;
                                   "
                                 />
-                                <div class="UjHkE" style="display: none">
-                                  <div
-                                    class="hqmMME dlRkEP"
-                                    style="width: 40px; height: 40px"
-                                  ></div>
+                                <div style="display: none">
+                                  <div style="width: 40px; height: 40px"></div>
                                 </div>
-                                <div class="bRzrLL">
+                                <div class="descriptionDetailsCheckMarkPosition">
                                   <svg
                                     width="14"
                                     height="14"
@@ -344,21 +346,16 @@
                                 </div></div
                             ></a>
                           </div>
-                          <div class="bMdBsL dXiuJH">
-                            <span class="  dJXsSm jOUuLS"
+                          <div class="creatorPosition">
+                            <span class="creatorLinkStyle"
                               ><a
                                 href="/nebenzu?tab=onsale"
                                 data-marker="root/appPage/token/sidebar/main/creator/nameLink"
-                                class="
-                                  dJXsSm
-                                  fbQESC
-                                  ptkOb
-                                  clIRY
-                                "
+                                class="paragraphStyle linkStyle"
                                 ><span
                                   data-address="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
                                   title="0xb32ec9935f9131d7f3d0b3ad1c28ca60f828a395"
-                                  class="  dJXsSm yJIFJ"
+                                  class="linkFontColor"
                                   >Nebenzu</span
                                 ></a
                               ></span
@@ -369,35 +366,25 @@
                     </div>
                   </div>
                 </div>
-                <div class="   cJQiTp">
-                  <div class="   fDJtLj">
-                    <span class="  dJXsSm bHLYLH">Collection</span>
-                    <div class="   hmMFuy">
-                      <div class="   gcLMcm">
+                <div class="creatorSecMargin">
+                  <div class="displayFlex">
+                    <span class="descriptionDetailsTitleStyle">Collection</span>
+                    <div class="descriptionTextBoxPadding">
+                      <div class="descriptionDetailsTitleMargin">
                         <div
                           data-address="0xa4cbac73fa850e431303245ac23a688eef1b0056"
                           data-marker="root/appPage/token/sidebar/main/collection"
-                          class="   ddDgOL"
+                          class="creatorNameStyle"
                         >
-                          <div class="iGDlQI">
+                          <div class="descriptionBtnImageMargin">
                             <a
                               href="/drops?tab=onsale"
                               data-marker="root/appPage/token/sidebar/main/collection/avatarLink"
-                              class="
-                                dJXsSm
-                                fbQESC
-                                ptkOb
-                                clIRY
-                              "
-                              ><div class="jnAJaq">
+                              class="paragraphStyle linkStyle"
+                              ><div class="descriptionDetailsCheckMark">
                                 <img
                                   src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-collections/0xa4cbac73fa850e431303245ac23a688eef1b0056/avatar/QmVaNj5JLgcJ3w2CyxYiuaCxbVHYn24UbVPmz4GGDHVS25"
-                                  class="
-                                    dGJRan
-                                    NsoaT
-                                    jREztg
-                                    iduHXF
-                                  "
+                                  class="imageSize"
                                   loading="lazy"
                                   style="
                                     width: 40px;
@@ -407,13 +394,10 @@
                                     position: relative;
                                   "
                                 />
-                                <div class="UjHkE" style="display: none">
-                                  <div
-                                    class="hqmMME dlRkEP"
-                                    style="width: 40px; height: 40px"
-                                  ></div>
+                                <div style="display: none">
+                                  <div style="width: 40px; height: 40px"></div>
                                 </div>
-                                <div class="bRzrLL">
+                                <div class="descriptionDetailsCheckMarkPosition">
                                   <svg
                                     width="14"
                                     height="14"
@@ -435,21 +419,16 @@
                                 </div></div
                             ></a>
                           </div>
-                          <div class="bMdBsL dXiuJH">
-                            <span class="  dJXsSm jOUuLS"
+                          <div class="creatorPosition">
+                            <span class="creatorLinkStyle"
                               ><a
                                 href="/drops?tab=onsale"
                                 data-marker="root/appPage/token/sidebar/main/collection/nameLink"
-                                class="
-                                  dJXsSm
-                                  fbQESC
-                                  ptkOb
-                                  clIRY
-                                "
+                                class="paragraphStyle linkStyle"
                                 ><span
                                   data-address="0xa4cbac73fa850e431303245ac23a688eef1b0056"
                                   title="0xa4cbac73fa850e431303245ac23a688eef1b0056"
-                                  class="  dJXsSm yJIFJ"
+                                  class="linkFontColor"
                                   >The Drops</span
                                 ></a
                               ></span
@@ -463,22 +442,20 @@
               </div>
               <div
                 data-marker="root/appPage/token/sidebar/main/royalties"
-                class="   eccOyI"
+                class="bubbleNoticeBarPadding"
               >
-                <div class="fDJtLj jbBjbv">
-                  <span class="dJXsSm eKtFCI dJNUVb"
-                    ><span class="  dJXsSm yJIFJ"
-                      ><span data-value="1000" class="  dJXsSm fbQESC"
-                        >10%</span
-                      ></span
+                <div class="displayFlex bubbleNoticeBarGradientColor">
+                  <span
+                    ><span class="linkFontColor"
+                      ><span data-value="1000" class="paragraphStyle">10%</span></span
                     >
                     of sales will go to creator</span
                   >
                 </div>
               </div>
-              <div class=" iaKKki hnTkDI">
-                <div class="   fUTYcx">
-                  <div class="   aZAhn" style="display: flex">
+              <div>
+                <div>
+                  <div style="display: flex">
                     <div
                       style="
                         position: relative;
@@ -501,52 +478,38 @@
                       >
                         <!-- max-height: 215px; -->
 
-                        <div
-                          role="tablist"
-                          class="fDJtLj ipwLBG"
-                        >
+                        <div role="tablist" class="displayFlex descriptionDetailsTitleAlign">
                           <button
                             role="tab"
                             aria-selected="true"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/details/trigger"
-                            class="    cyTDyE flcLKg"
+                            class="descriptionDetailsTextBtnStyle descriptionDetailsTextPadding"
                           >
-                            <span class="   dJXsSm cBHPdj eOTYGC"
-                              >Details</span
-                            >
-                            <div
-                              class="    fDJtLj ccDJtE"
-                            ></div></button
+                            <span class="descriptionDetailsText">Details</span>
+                            <div class="displayFlex descriptionDetailsTextStyle"></div></button
                           ><button
                             role="tab"
                             aria-selected="false"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/bids/trigger"
-                            class="    cyTDyE ehoVfs"
+                            class="descriptionDetailsTextBtnStyle descriptionDetailsUnselectedMenu"
                           >
-                            <span class="   dJXsSm cBHPdj eOTYGC"
-                              >Bids</span
-                            >
-                            <div
-                              class="    fDJtLj epUnBg"
-                            ></div></button
+                            <span class="descriptionDetailsText">Bids</span>
+                            <div class="displayFlex"></div></button
                           ><button
                             role="tab"
                             aria-selected="false"
                             type="button"
                             data-marker="root/appPage/token/sidebar/main/info/history/trigger"
-                            class="    cyTDyE ehoVfs"
+                            class="descriptionDetailsTextBtnStyle descriptionDetailsUnselectedMenu"
                           >
-                            <span class="   dJXsSm cBHPdj eOTYGC"
-                              >History</span
-                            >
-                            <div class="    fDJtLj epUnBg"></div>
+                            <span class="descriptionDetailsText">History</span>
+                            <div class="displayFlex"></div>
                           </button>
                         </div>
                       </div>
                       <div
-                        class=" ljWfRO"
                         style="
                           position: absolute;
                           height: 6px;
@@ -556,12 +519,10 @@
                         "
                       >
                         <div
-                          class="   gUaHnb"
                           style="position: relative; display: block; height: 100%; width: 0px"
                         ></div>
                       </div>
                       <div
-                        class=" ljWfRO"
                         style="
                           position: absolute;
                           width: 6px;
@@ -571,48 +532,37 @@
                         "
                       >
                         <div
-                          class="   gUaHnb"
                           style="position: relative; display: block; width: 100%; height: 0px"
                         ></div>
                       </div>
                     </div>
-                    <div class=" bPNwGg" style="z-index: -1; opacity: 0"></div>
-                    <div class=" fLUzWa" style="opacity: 0; z-index: -1"></div>
+                    <div style="z-index: -1; opacity: 0"></div>
+                    <div style="opacity: 0; z-index: -1"></div>
                   </div>
                 </div>
               </div>
-              <div class="   jQzmww">
-                <div class="   ">
-                  <div class="   fDJtLj">
-                    <div class="   dVaqxJ">
-                      <div class="   fDJtLj">
-                        <span class="  dJXsSm bHLYLH">Owner</span>
-                        <div class="   hmMFuy">
-                          <div class="   gcLMcm">
+              <div class="descriptionDetailsPadding">
+                <div>
+                  <div class="displayFlex">
+                    <div class="descriptionDetailsTextMargin">
+                      <div class="displayFlex">
+                        <span class="descriptionDetailsTitleStyle">Owner</span>
+                        <div class="descriptionTextBoxPadding">
+                          <div class="descriptionDetailsTitleMargin">
                             <div
                               data-address="0x91857afe6cd40f459aabb56491e9b5c852e66255"
                               data-marker="root/appPage/token/sidebar/main/info/details/ownerLink"
-                              class="   ddDgOL"
+                              class="creatorNameStyle"
                             >
-                              <div class="iGDlQI">
+                              <div class="descriptionBtnImageMargin">
                                 <a
                                   href="/user/0x91857afe6cd40f459aabb56491e9b5c852e66255?tab=onsale"
                                   data-marker="root/appPage/token/sidebar/main/info/details/ownerLink/avatarLink"
-                                  class="
-                                    dJXsSm
-                                    fbQESC
-                                    ptkOb
-                                    clIRY
-                                  "
-                                  ><div class="jnAJaq">
+                                  class="paragraphStyle linkStyle"
+                                  ><div class="descriptionDetailsCheckMark">
                                     <img
                                       src="https://img.rarible.com/prod/image/upload/t_avatar_big/prod-users/0x91857afe6cd40f459aabb56491e9b5c852e66255/avatar/QmR1p5Q7zSGN7JiVTpNTFQUxKEaFBLdjBBBJgELY4BaLRG"
-                                      class="
-                                        dGJRan
-                                        NsoaT
-                                        jREztg
-                                        iduHXF
-                                      "
+                                      class="imageSize"
                                       loading="lazy"
                                       style="
                                         width: 40px;
@@ -622,16 +572,10 @@
                                         position: relative;
                                       "
                                     />
-                                    <div
-                                      class="UjHkE"
-                                      style="display: none"
-                                    >
-                                      <div
-                                        class="hqmMME dlRkEP"
-                                        style="width: 40px; height: 40px"
-                                      ></div>
+                                    <div style="display: none">
+                                      <div style="width: 40px; height: 40px"></div>
                                     </div>
-                                    <div class="bRzrLL">
+                                    <div class="descriptionDetailsCheckMarkPosition">
                                       <svg
                                         width="14"
                                         height="14"
@@ -653,21 +597,16 @@
                                     </div></div
                                 ></a>
                               </div>
-                              <div class="bMdBsL dXiuJH">
-                                <span class="  dJXsSm jOUuLS"
+                              <div class="creatorPosition">
+                                <span class="creatorLinkStyle"
                                   ><a
                                     href="/user/0x91857afe6cd40f459aabb56491e9b5c852e66255?tab=onsale"
                                     data-marker="root/appPage/token/sidebar/main/info/details/ownerLink/nameLink"
-                                    class="
-                                      dJXsSm
-                                      fbQESC
-                                      ptkOb
-                                      clIRY
-                                    "
+                                    class="paragraphStyle linkStyle"
                                     ><span
                                       data-address="0x91857afe6cd40f459aabb56491e9b5c852e66255"
                                       title="0x91857afe6cd40f459aabb56491e9b5c852e66255"
-                                      class="  dJXsSm yJIFJ"
+                                      class="linkFontColor"
                                       >DNZCNGZ</span
                                     ></a
                                   ></span
@@ -678,20 +617,20 @@
                         </div>
                       </div>
                     </div>
-                    <div class="fDJtLj gIgWXs">
-                      <div class="   fDJtLj">
-                        <div class="   fDJtLj">
-                          <span class="  dJXsSm bHLYLH">Size</span>
-                          <div class="   hmMFuy">
-                            <span class="  dJXsSm cCpYEe">4000x4000px</span>
+                    <div class="displayFlex descriptionDetailsTextMarginBottom">
+                      <div class="displayFlex">
+                        <div class="displayFlex">
+                          <span class="descriptionDetailsTitleStyle">Size</span>
+                          <div class="descriptionTextBoxPadding">
+                            <span>4000x4000px</span>
                           </div>
                         </div>
                       </div>
-                      <div class="   fDJtLj">
-                        <div class="   fDJtLj">
-                          <span class="  dJXsSm bHLYLH">Background</span>
-                          <div class="   hmMFuy">
-                            <span class="  dJXsSm cCpYEe">Black</span>
+                      <div class="displayFlex">
+                        <div class="displayFlex">
+                          <span class="descriptionDetailsTitleStyle">Background</span>
+                          <div class="descriptionTextBoxPadding">
+                            <span>Black</span>
                           </div>
                         </div>
                       </div>
@@ -702,34 +641,43 @@
             </div>
           </div>
         </div>
-        <div class="    cMRcYJ htLCcn">
-          <div class="   FHEoH">
-            <div class="fDJtLj hTrBNW">
-              <div class="   hLcxsH">
-                <div class="   fDJtLj">
-                  <div class="   hcigyn">
-                    <div class="   cJQiTp">
+
+        <div class="descriptionBottomBtn descriptionBottomBg">
+          <div class="descriptionBottomPadding">
+            <div class="displayFlex">
+              <div class="descriptionBottom">
+                <div class="displayFlex">
+                  <div class="descriptionBottomFlex">
+                    <div class="creatorSecMargin">
                       <button
-                        class=" cyTDyE UJnfT dbjGIW"
+                        class="
+                          descriptionDetailsTextBtnStyle
+                          descriptionBottomBtnStyle
+                          descriptionBottomBuyBtn
+                        "
                         type="button"
                         data-marker="root/appPage/token/sidebar/footer/purchaseWidget/buyButton"
                       >
-                        <span class="  dJXsSm fbQESC"
+                        <span class="paragraphStyle"
                           >Buy for
                           <span
                             title="1.09 ETH"
                             data-currency-symbol="ETH"
                             data-currency-address="0x0000000000000000000000000000000000000000"
                             data-price="1.09"
-                            class="  dJXsSm fbQESC"
+                            class="paragraphStyle"
                             >1.09 ETH</span
                           ></span
                         >
                       </button>
                     </div>
-                    <div class="   cJQiTp">
+                    <div class="creatorSecMargin">
                       <button
-                        class=" cyTDyE UJnfT lfjFGa"
+                        class="
+                          descriptionDetailsTextBtnStyle
+                          descriptionBottomBtnStyle
+                          descriptionBottomPlaceBtn
+                        "
                         type="button"
                         data-marker="root/appPage/token/sidebar/footer/purchaseWidget/bidButton"
                       >

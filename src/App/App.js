@@ -1,6 +1,7 @@
 import { DeviceStateEvent } from 'seng-device-state-tracker';
 import { mapMutations, mapState } from 'vuex';
 import { SET_DEVICE_STATE } from '../store/module/app/app';
+// import {Component, Prop, Vue, Watch} from 'vue-property-decorator';
 
 // @vue/component
 export default {

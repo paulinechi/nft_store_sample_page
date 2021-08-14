@@ -142,3 +142,10 @@
 .buttonWrap {
   display: flex;
 }
+
+.headerDropDownBtn {
+  float: right;
+  align-items: center;
+  color: $darkGray;
+  cursor: pointer;
+}
