@@ -3,6 +3,9 @@ import 'modernizr';
 import Vue from 'vue';
 import VueI18nManager from 'vue-i18n-manager';
 import { sync } from 'vuex-router-sync';
+import { BDropdown, BDropdownItem, BDropdownDivider } from 'bootstrap-vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import './asset/style/screen.scss';
 
@@ -17,6 +20,10 @@ import setupInjects from './util/setupInjects';
 import localeLoader from './util/localeLoader';
 import App from './App';
 import filter from './filter/filter';
+
+Vue.component('b-dropdown', BDropdown);
+Vue.component('b-dropdown-item', BDropdownItem);
+Vue.component('b-dropdown-divider', BDropdownDivider);
 
 // register filters globally
 Object.keys(filter).forEach((key) => Vue.filter(key, filter[key]));

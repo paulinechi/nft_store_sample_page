@@ -4,10 +4,10 @@
 // };
 
 import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
-import { BDropdown, BDropdownItem } from 'bootstrap-vue';
+// import { BDropdown, BDropdownItem } from 'bootstrap-vue';
 
-Vue.component('b-dropdown', BDropdown);
-Vue.component('b-dropdown-item', BDropdownItem);
+// Vue.component('b-dropdown', BDropdown);
+// Vue.component('b-dropdown-item', BDropdownItem);
 
 // import {
 //     IssueFilterInterface,
@@ -32,9 +32,8 @@ Vue.component('b-dropdown-item', BDropdownItem);
 @Component({
   name: 'homepage',
   components: {
-    'b-dropdown': BDropdown,
-    'b-dropdown-item': BDropdownItem,
-
+    // 'b-dropdown': BDropdown,
+    // 'b-dropdown-item': BDropdownItem,
     // 'c-issue-vote': IssueVote,
   },
 })
@@ -54,4 +53,9 @@ export default class HomePage extends Vue {
   public descriptionMenuDropDown: boolean = false;
 
   public test: boolean = false;
+  public selectedTab: string = 'Details';
+
+  public changeTab(newTab: string): void {
+    this.selectedTab = newTab;
+  }
 }

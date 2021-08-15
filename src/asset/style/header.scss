@@ -40,6 +40,11 @@
   margin: 15px;
 }
 
+.titleStyle:hover {
+  text-decoration: none;
+  color: black !important;
+}
+
 .header {
   display: flex;
   align-items: center;
