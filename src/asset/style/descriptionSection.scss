@@ -7,8 +7,7 @@
   background-color: transparent !important;
   border-color: lightgray !important;
   height: 38px;
-  margin-top: -15px;
-  margin-bottom: 5px;
+  margin-top: -10px;
   font-weight: bold;
 }
 
@@ -807,4 +806,28 @@
   margin-top: 15px;
   text-align: center;
   color: rgb(128, 128, 128);
+}
+
+.logo > img {
+  border-radius: 100%;
+}
+
+.historyDiv {
+  display: inline;
+}
+
+.logo {
+  float: left;
+  margin-right: 25px;
+}
+
+.historyDetailsText {
+  color: $darkGray !important;
+}
+
+#dropdown-1 {
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  padding: 4px 12px;
+  margin-top: 0 !important;
 }
